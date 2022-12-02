@@ -13,7 +13,13 @@ const moves = {
   Z: "Scissors",
 };
 
+const scores = {
+  Rock: 1,
+  Paper: 2,
+  Scissors: 3,
+};
 
+let totalScore = 0;
 
 console.log(splinput.length);
 
